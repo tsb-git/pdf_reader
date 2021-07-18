@@ -1,5 +1,5 @@
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-  document.write("mobile");
+  window.location.href = "https://online.flippingbook.com/view/388530702/";
 }else{
-  document.write("not mobile");
+  window.location.href = "https://tsb-git.github.io/pdf_reader/index.html";
 }
